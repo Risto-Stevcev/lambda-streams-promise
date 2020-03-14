@@ -10,7 +10,8 @@ WIP
 
 ## License
 
-See [LICENSE][3]
+See [LICENSE][2]
 
 
 [1]: https://github.com/Risto-Stevcev/lambda-streams
+[2]: https://github.com/Risto-Stevcev/lambda-streams/blob/master/LICENSE
