@@ -1,13 +1,5 @@
 open LambdaStreams
 
-module Interval = Async.Interval (struct
-  type interval_id = Js.Global.intervalId
-
-  let set_interval = Js.Global.setInterval
-
-  let clear_interval = Js.Global.clearInterval
-end)
-
 let first_to_promise (stream : 'a Finite.Async.t) : 'a Js.Promise.t =
   Js.Promise.make (fun ~resolve ~reject:_ ->
       stream
@@ -33,7 +25,3 @@ let from_promise (promise : 'a Js.Promise.t) : 'a Finite.Async.t =
          cb EndOfSignal;
          Js.Promise.resolve ())
   |> ignore
-
-let _ =
-  let { Connection.stream; close } = Interval.make ~ms:1500 in
-  stream |> Finite.Async.take' ~close 5 |> Finite.Async.map (fun e -> Js.log e) |> first_to_promise
