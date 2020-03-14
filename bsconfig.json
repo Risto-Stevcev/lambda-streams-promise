@@ -1,0 +1,20 @@
+{
+  "name": "lambda-streams-promise",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "lambda-streams"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
