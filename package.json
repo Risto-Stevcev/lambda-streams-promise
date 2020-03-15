@@ -1,10 +1,12 @@
 {
   "name": "lambda-streams-promise",
+  "description": "Javascript promise helpers for lambda-streams",
   "version": "0.1.0",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
-    "watch": "bsb -make-world -w"
+    "watch": "bsb -make-world -w",
+    "docs": "bs-odoc -i index.mld -g"
   },
   "keywords": [
     "BuckleScript"
@@ -15,6 +17,7 @@
     "bs-platform": "^7.1.1"
   },
   "dependencies": {
+    "@ristostevcev/bs-odoc": "^2.2.0",
     "lambda-streams": "https://github.com/Risto-Stevcev/lambda-streams"
   }
 }

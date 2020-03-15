@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@ristostevcev/bs-odoc@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@ristostevcev/bs-odoc/-/bs-odoc-2.2.0.tgz#5409014042bfb923819470d42f218dcc6d61db32"
+  integrity sha512-WQbQK1sA+0KQQj8zPKDEZVAaJYF0C0+/SRSgADvxMabgejsmKIaJas93mSlOQ/i9bcIyU3b/8tRY2u1/Rx/low==
+
 bs-platform@^7.1.1:
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.2.2.tgz#76fdc63e4889458ae3d257a0132107a792f2309c"

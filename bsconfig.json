@@ -14,7 +14,9 @@
     "lambda-streams"
   ],
   "warnings": {
-    "error" : "+101"
+    "error" : "+101+25+8+9+27",
+    "number" : "-48"
   },
+  "bsc-flags": ["-bs-super-errors"],
   "refmt": 3
 }
