@@ -10,7 +10,7 @@ WIP
 
 ## Documentation
 
-See the [interface file][2]
+See the [docs][2]
 
 
 ## License
@@ -19,5 +19,5 @@ See [LICENSE][3]
 
 
 [1]: https://github.com/Risto-Stevcev/lambda-streams
-[2]: https://github.com/Risto-Stevcev/lambda-streams-promise/blob/master/src/Promise.mli
+[2]: https://risto-stevcev.github.io/lambda-streams-promise
 [3]: https://github.com/Risto-Stevcev/lambda-streams/blob/master/LICENSE
