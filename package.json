@@ -17,7 +17,7 @@
     "bs-platform": "^7.1.1"
   },
   "dependencies": {
-    "@ristostevcev/bs-odoc": "^2.2.0",
+    "@ristostevcev/bs-odoc": "^2.2.1",
     "lambda-streams": "https://github.com/Risto-Stevcev/lambda-streams"
   }
 }
