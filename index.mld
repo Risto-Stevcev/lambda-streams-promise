@@ -1,0 +1,13 @@
+{1:top LambdaStreamsPromise}
+
+Javascript promise helpers for {{:https://github.com/Risto-Stevcev/lambda-streams}lambda-streams}.
+
+{2 Usage}
+
+{ul
+{- {!Promise.first_to_promise} converts the {i first} signal of a finite async stream into a promise.}
+{- {!Promise.last_to_promise} converts the {i last} signal of a finite async stream into a promise.}
+{- {!Promise.from_promise} converts a promise into a finite async stream.}
+}
+
+See {!Promise} for more info.
